@@ -1,3 +1,4 @@
+ 
 .topboxes {
     display:flex;
     /*flex-direction: row; ROW BY DEFAULT -IB*/ 
@@ -15,7 +16,6 @@
      margin: 5px; /*I added justify-content: center; in topboxes and added margin here -IB*/
      z-index: 0;
      position:relative;
-
 }
 
 .lime {
@@ -94,6 +94,7 @@
   right: 200px;
 }
 
+ 
 .smallcircle {
     display: flex;
     z-index: 100;
@@ -156,4 +157,5 @@
     top: 0px;
     left: 0px;
     position: absolute;
+ 
 }
