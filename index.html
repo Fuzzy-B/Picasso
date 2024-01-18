@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
- 
+
     <div class="topboxes">
         <div class="topbox topbox1"></div>
         <div class="topbox topbox2"></div>
@@ -16,18 +16,29 @@
 
     <div class="block">
         <div class="bigblock"></div>
+        <div class="backtriangle"> 
+            <div id="darktriangle"></div>
+        </div>
+        <div class="fronttriangle"> 
+            <div id="lighttriangle"></div>
+        </div>    
+
+    <div class="oval">
+        <div class="blueoval" id="blueoval1"></div>
+        <div class="blueoval" id="blueoval2"></div>
+        <div class="blueoval" id="blueoval3"></div>
+        <div class="blueoval" id="blueoval4"></div>
+        <div class="blueoval" id="blueoval5"></div>
+        <div class="blueoval" id="blueoval6"></div>
+        <div class="grayoval" id="grayoval1"></div>
+        <div class="grayoval" id="grayoval2"></div>
+        <div class="grayoval" id="grayoval3"></div>
+        <div class="grayoval" id="grayoval4"></div>
+    </div>
     </div>
 
     <div class="bar">
         <div class="lime"></div>
-    </div>
-
-    <div class="backtriangle"> 
-        <div id="darktriangle"></div>
-    </div>
-
-    <div class="fronttriangle"> 
-        <div id="lighttriangle"></div>
     </div>
 
     <div class="smallcircle">
@@ -44,18 +55,16 @@
     <div class="bigcirclered">
         <div id="bigred"></div>
     </div>
+    
+    <form action="form.html">
+    <label for="name">Name:</label>
+        <input type="text" name="name:">
 
-    <div class="oval">
-        <div class="blueoval" id="blueoval1"></div>
-        <div class="blueoval" id="blueoval2"></div>
-        <div class="blueoval" id="blueoval3"></div>
-        <div class="blueoval" id="blueoval4"></div>
-        <div class="blueoval" id="blueoval5"></div>
-        <div class="blueoval" id="blueoval6"></div>
-        <div class="grayoval" id="grayoval1"></div>
-        <div class="grayoval" id="grayoval2"></div>
-        <div class="grayoval" id="grayoval3"></div>
-        <div class="grayoval" id="grayoval4"></div>
-    </div>
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+
+        <button type="submit">Submit</button>
+
+    </form>
 </body>
 </html>

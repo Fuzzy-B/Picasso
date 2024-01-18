@@ -72,8 +72,9 @@
   border-bottom: 500px solid rgb(16, 43, 9);
   z-index: 100;
   position:absolute;
-  top: 173px;
-  right: 430px;
+  bottom: 0vw;
+  right: 16vw;
+  z-index: 0;
 }
 
 .fronttriangle {
@@ -90,8 +91,9 @@
   border-bottom: 350px solid rgb(160, 202, 42);
   z-index: 100;
   position:absolute;
-  top: 323px;
-  right: 200px;
+  bottom: 0vw;
+  right: 1vw;
+  z-index: 0;
 }
 
  
@@ -179,8 +181,8 @@
     width: 40%;
     display: flex;
     position: absolute;
-    top: 366px;
-    left: 200px;
+    bottom: 0vw;
+    left: 2vw;
 }
 
 .blueoval {
