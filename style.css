@@ -144,18 +144,62 @@
  
 
 .bigcircleyellow {
-    background-color: rgb(234, 238, 30);
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
     display: flex;
     z-index: 100;
 }
 
 #bigyellow {
-    top: 0px;
-    left: 0px;
+    top: 50px;
+    left: 500px;
     position: absolute;
+    background-color: rgb(234, 238, 30);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
  
 }
+
+.bigcirclered {
+    display: flex;
+    z-index: 100;
+}
+
+#bigred {
+    top: 175px;
+    left: 650px;
+    position: absolute;
+    background-color: salmon;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.oval {
+    border-radius: 50%;
+    width: 40%;
+    display: flex;
+    position: absolute;
+    top: 366px;
+    left: 200px;
+}
+
+.blueoval {
+    background-color: rgb(22, 107, 103);
+  border-radius: 50%;
+  width: 10%;
+  padding-bottom: 40%;
+  height:20%;
+  justify-content: space-between;
+  
+}
+
+.grayoval {
+    background-color: rgb(60, 68, 68);
+  border-radius: 50%;
+  width: 10%;
+  padding-bottom: 40%;
+  justify-content: space-between;
+  
+}
+
+ 
